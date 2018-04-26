@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7248e9e0-21f1-4f4b-988b-61460d50ac22" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Board.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config.py" />
+      <change beforePath="$USER_HOME$/Desktop/AIE/APIScaffolding/APIScaffoldingMain.py" afterPath="$USER_HOME$/Desktop/AIE/APIScaffolding/APIScaffoldingMain.py" />
+      <change beforePath="$USER_HOME$/Desktop/AIE/APIScaffolding/SqlTable.py" afterPath="$USER_HOME$/Desktop/AIE/APIScaffolding/SqlTable.py" />
+      <change beforePath="$USER_HOME$/Desktop/AIE/APIScaffolding/TemplateCodeGenerator.py" afterPath="$USER_HOME$/Desktop/AIE/APIScaffolding/TemplateCodeGenerator.py" />
+      <change beforePath="$USER_HOME$/Desktop/AIE/APIScaffolding/Templates.py" afterPath="$USER_HOME$/Desktop/AIE/APIScaffolding/Templates.py" />
+      <change beforePath="$USER_HOME$/Desktop/AIE/APIScaffolding/config.py" afterPath="$USER_HOME$/Desktop/AIE/APIScaffolding/config.py" />
+      <change beforePath="$PROJECT_DIR$/game_2048.py" afterPath="$PROJECT_DIR$/game_2048.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/2048$APIScaffoldingMain.coverage" NAME="APIScaffoldingMain Coverage Results" MODIFIED="1524523879785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/AIE/APIScaffolding" />
+    <SUITE FILE_PATH="coverage/2048$game_2048.coverage" NAME="game_2048 Coverage Results" MODIFIED="1520789544128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="APIScaffoldingMain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/APIScaffoldingMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1605">
+              <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dict-angular-service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-services/dict-angular-service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Templates.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/Templates.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="389" column="20" lean-forward="false" selection-start-line="389" selection-start-column="20" selection-end-line="389" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dict-module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/module/dict-module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlTable.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/SqlTable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <marker date="1524521416000" expanded="true" signature="1393:1744" ph="create table... tblServiceLevelCategory" />
+                <marker date="1524521416000" expanded="true" signature="1748:2031" ph="create table... tblBusinessUnit" />
+                <marker date="1524521416000" expanded="true" signature="2033:2377" ph="create table... tblBusinessServiceLine" />
+                <marker date="1524521416000" expanded="true" signature="2379:2708" ph="create table... tblBusinessDepartment" />
+                <marker date="1524521416000" expanded="true" signature="2712:3005" ph="create table... tblDataCenter" />
+                <marker date="1524521416000" expanded="true" signature="3009:3357" ph="create table... tblOperatingSystemFamily" />
+                <marker date="1524521416000" expanded="true" signature="3362:3806" ph="create table... tblServerType" />
+                <marker date="1524521416000" expanded="true" signature="3811:4108" ph="create table... tblTierLevel" />
+                <marker date="1524521416000" expanded="true" signature="4112:4435" ph="create table... tblBusinessProject" />
+                <marker date="1524521416000" expanded="true" signature="4437:4778" ph="create table... tblFabric" />
+                <marker date="1524521416000" expanded="true" signature="4780:5352" ph="create table... tblServerTemplate" />
+                <marker date="1524521416000" expanded="true" signature="5354:5817" ph="create table... tblFabricNode" />
+                <marker date="1524521416000" expanded="true" signature="5819:6297" ph="create table... tblOperatingSystem" />
+                <marker date="1524521416000" expanded="true" signature="6299:6621" ph="create table... tblBusinessCapability" />
+                <marker date="1524521416000" expanded="true" signature="6623:7231" ph="create table... tblBusinessApplication" />
+                <marker date="1524521416000" expanded="true" signature="7233:7791" ph="create table... tblFabricNodeGroup" />
+                <marker date="1524521416000" expanded="true" signature="7793:8120" ph="create table... tblNetworkDomain" />
+                <marker date="1524521416000" expanded="true" signature="8122:8598" ph="create table... tblNetwork" />
+                <marker date="1524521416000" expanded="true" signature="8600:9094" ph="create table... tblEnvironmentDomain" />
+                <marker date="1524521416000" expanded="true" signature="9096:9924" ph="create table... tblFabricNodeServer" />
+                <marker date="1524521416000" expanded="true" signature="9926:10303" ph="create table... tblEnvironment" />
+                <marker date="1524521416000" expanded="true" signature="10305:11331" ph="create table... tblFabricNodeAssignment" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dict-express.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/express-endpoints/dict-express.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addcolumn</find>
+      <find>config['name']</find>
+      <find>expressTypeMappings</find>
+      <find>addColumn</find>
+      <find>inputtype</find>
+      <find>inputType</find>
+      <find>fkIds</find>
+      <find>userField</find>
+      <find>autocomplete</find>
+      <find>displayheader</find>
+      <find>join</find>
+      <find>submit</find>
+      <find>BusinessLocationId</find>
+      <find>kebab</find>
+      <find>typescript scaf</find>
+      <find>rendered</find>
+      <find>console.</find>
+      <find>if</find>
+      <find>{%</find>
+      <find>print</find>
+      <find>e2e</find>
+      <find>e2escrip</find>
+      <find>alter</find>
+      <find>cmdbservice</find>
+      <find>express</find>
+      <find>expressModulePrefix</find>
+      <find>prefix</find>
+      <find>servercategory</find>
+      <find>cmdb</find>
+      <find>server</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>move_tile</replace>
+      <replace>get_empty</replace>
+      <replace>get_highest_tile</replace>
+      <replace>outputFile</replace>
+      <replace>{{serviceName}}</replace>
+      <replace>combineAPIFiles</replace>
+      <replace>htmlInputType</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$USER_HOME$/Desktop/AIE/APIScaffolding</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Desktop/AIE/APIScaffolding" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MinMaxTree.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/sqlQueryFunctions.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/expressEndpointFunctions.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/templates/TypescriptTemplate.py" />
+        <option value="$PROJECT_DIR$/AIPlayer.py" />
+        <option value="$PROJECT_DIR$/Game.py" />
+        <option value="$PROJECT_DIR$/Board.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/game_2048.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/TypescriptObjectGenerator.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/SqlCodeGenerator.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/TypescriptCodeGenerator.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/output/BusinessAssetCategory-queries.js" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/test-queries.js" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/ExpressCodeGenerator.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/tools.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/cmdb.ts" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/SqlDDLParser.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/readme.md" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/business-asset/business-asset.component.ts" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/TemplateCodeGenerator.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/APIScaffoldingMain.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/output/module/dict-module.ts" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-services/dict-angular-service.ts" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/config.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/SqlTable.py" />
+        <option value="$USER_HOME$/Desktop/AIE/APIScaffolding/Templates.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
+    <option name="y" value="44" />
+    <option name="width" value="1775" />
+    <option name="height" value="915" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2048" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIScaffolding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2048" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIScaffolding" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2048" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIScaffolding" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-services" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CoffeeScript" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="/usr/local/lib/node_modules/tslint" />
+    <property name="SearchEverywhereHistoryKey" value="addcolumn&#9;null&#9;null&#10;addcol&#9;null&#9;null&#10;tools&#9;FILE&#9;file:///Users/JD.Francis/Desktop/AIE/APIScaffolding/tools.py" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.APIScaffoldingMain">
+    <configuration name="APIScaffoldingMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/AIE/APIScaffolding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="APIScaffolding" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/AIE/APIScaffolding/APIScaffoldingMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2048" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="game_2048.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="game_2048" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2048" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_2048.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.game_2048" />
+      <item index="1" class="java.lang.String" itemvalue="Python.APIScaffoldingMain" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.APIScaffoldingMain" />
+        <item index="1" class="java.lang.String" itemvalue="Python.game_2048" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7248e9e0-21f1-4f4b-988b-61460d50ac22" name="Default" comment="" />
+      <created>1520546761535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520546761535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="44" width="1775" height="915" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2169014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/BusinessAssetCategory-express.js" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/test-angular-service.js" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/BusinessVendor.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/BusinessAssetClass.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/test-angular-service.ts" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.3/python_stubs/348993582/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1958" column="8" lean-forward="false" selection-start-line="1958" selection-start-column="8" selection-end-line="1958" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/tblBusinessAssetClass-express.js" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/BusinessProduct.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/BusinessAssetCategory.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/angular-components/BusinessProduct.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output-temp/angular-services/test-angular-service.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/nav-menu/cmdb.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/html-switch/cmdb.html" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/business-asset-class/business-asset-class.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/typescript-classes/AppDatabase.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/app-database/app-database.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/app-database/app-database-form.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/asset-status/asset-status-form.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/monitoring/monitoring.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/business-asset/business-asset-form.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/SqlCodeGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-services/cmdb-angular-service.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/SqlDDLParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/ExpressCodeGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/business-asset/business-asset.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/sql-queries/cmdb-queries.js" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/business-hardware/business-hardware.component.ts" />
+    <entry file="file:///Library/Python/2.7/site-packages/jinja2/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2831">
+          <caret line="944" column="0" lean-forward="false" selection-start-line="944" selection-start-column="0" selection-end-line="944" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/express-endpoints/cmdb-express.js" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/cmdb.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/cmdb-config.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/cmdb-formgroups.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/cmdb-scripts.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/dict-config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="316" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/dict-formgroups.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/e2e/dict-scripts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/TemplateCodeGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1261">
+            <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/sql-queries/dict-queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <marker date="1524521416000" expanded="true" signature="1393:1744" ph="create table... tblServiceLevelCategory" />
+            <marker date="1524521416000" expanded="true" signature="1748:2031" ph="create table... tblBusinessUnit" />
+            <marker date="1524521416000" expanded="true" signature="2033:2377" ph="create table... tblBusinessServiceLine" />
+            <marker date="1524521416000" expanded="true" signature="2379:2708" ph="create table... tblBusinessDepartment" />
+            <marker date="1524521416000" expanded="true" signature="2712:3005" ph="create table... tblDataCenter" />
+            <marker date="1524521416000" expanded="true" signature="3009:3357" ph="create table... tblOperatingSystemFamily" />
+            <marker date="1524521416000" expanded="true" signature="3362:3806" ph="create table... tblServerType" />
+            <marker date="1524521416000" expanded="true" signature="3811:4108" ph="create table... tblTierLevel" />
+            <marker date="1524521416000" expanded="true" signature="4112:4435" ph="create table... tblBusinessProject" />
+            <marker date="1524521416000" expanded="true" signature="4437:4778" ph="create table... tblFabric" />
+            <marker date="1524521416000" expanded="true" signature="4780:5352" ph="create table... tblServerTemplate" />
+            <marker date="1524521416000" expanded="true" signature="5354:5817" ph="create table... tblFabricNode" />
+            <marker date="1524521416000" expanded="true" signature="5819:6297" ph="create table... tblOperatingSystem" />
+            <marker date="1524521416000" expanded="true" signature="6299:6621" ph="create table... tblBusinessCapability" />
+            <marker date="1524521416000" expanded="true" signature="6623:7231" ph="create table... tblBusinessApplication" />
+            <marker date="1524521416000" expanded="true" signature="7233:7791" ph="create table... tblFabricNodeGroup" />
+            <marker date="1524521416000" expanded="true" signature="7793:8120" ph="create table... tblNetworkDomain" />
+            <marker date="1524521416000" expanded="true" signature="8122:8598" ph="create table... tblNetwork" />
+            <marker date="1524521416000" expanded="true" signature="8600:9094" ph="create table... tblEnvironmentDomain" />
+            <marker date="1524521416000" expanded="true" signature="9096:9924" ph="create table... tblFabricNodeServer" />
+            <marker date="1524521416000" expanded="true" signature="9926:10303" ph="create table... tblEnvironment" />
+            <marker date="1524521416000" expanded="true" signature="10305:11331" ph="create table... tblFabricNodeAssignment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/SqlTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-components/business-application/business-application.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/express-endpoints/dict-express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/APIScaffoldingMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/angular-services/dict-angular-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/nav-menu/dict.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/module/dict-list.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/html-switch/dict.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="51" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/output/module/dict-module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AIE/APIScaffolding/Templates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="389" column="20" lean-forward="false" selection-start-line="389" selection-start-column="20" selection-end-line="389" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
