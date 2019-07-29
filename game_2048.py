@@ -2,7 +2,7 @@ import os, sys, pygame, random, copy
 from MinMaxTree import MinMaxTree
 from Game import Game
 from pygame.locals import *
-from config import config
+import config
 
 if not pygame.font: print 'Warning, fonts disabled'
 if not pygame.mixer: print 'Warning, sound disabled'
@@ -24,7 +24,9 @@ class Main:
         self.background.fill((0, 0, 0))
 
         # Create a game object
-        self.game = Game(config.screenHeight, config.screenWidth, self.screen, 1)
+        self.game = Game(config.screenHeight, config.screenWidth, self.screen)
+        if (config.aiPlayer):
+            self.game.addAIPlayer(config.treeDepth)
 
     # This is the constant running game loop.
     def main_loop(self):
@@ -47,5 +49,6 @@ class Main:
 
 
 if __name__ == "__main__":
+
     MainWindow = Main(config.screenWidth, config.screenHeight)
     MainWindow.main_loop()

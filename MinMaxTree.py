@@ -1,8 +1,8 @@
 import copy
 
 class MinMaxTree:
-    def __init__(self, state, move=None):
-        self.state = state
+    def __init__(self, board, move=None):
+        self.board = board
         self.hValue = None
         self.children = []
         self.move = move
@@ -30,12 +30,12 @@ class MinMaxTree:
                     highest['pos'] = [i, j]
         return highest
 
-    def insert(self, newState, move=None):
+    def insertTreeLevel(self, newState, move=None):
         self.children.append(MinMaxTree(newState, move))
 
     def calc_heuristic(self):
-        emptySpots = self.get_empty(self.state)
-        highestTile = self.get_highest_tile(self.state)
+        emptySpots = self.get_empty(self.board.tiles)
+        highestTile = self.get_highest_tile(self.board.tiles)
 
         self.hValue = highestTile['value'] + emptySpots['sum']
         return self.hValue
@@ -45,13 +45,13 @@ class MinMaxTree:
             return self.calc_heuristic()
         if (player > 0):
             value = -float("inf")
-            empty = self.get_empty(self.state)
+            empty = self.get_empty(self.board.tiles)
             for i in range(empty['sum']):  # Max - insert min trees
-                tempState = copy.deepcopy(self.state)
+                boardCopy = copy.deepcopy(self.board)
                 emptyX = empty['tiles'][i][0]
                 emptyY = empty['tiles'][i][1]
-                tempState[emptyX][emptyY] = 1
-                self.insert(tempState)
+                boardCopy.tiles[emptyX][emptyY] = 1
+                self.insertTreeLevel(boardCopy)
                 value = max(value, self.children[i].ab_tree_search(depth - 1, alpha, beta, player * -1))
                 alpha = max(alpha, value)
                 self.hValue = value
@@ -64,9 +64,9 @@ class MinMaxTree:
             xdirs = [0, 1, -1, 0]
             ydirs = [-1, 0, 0, 1]
             for i in range(4):
-                tempState = copy.deepcopy(self.state)
-                self.move_tiles(self.state, xdirs[i], ydirs[i])
-                self.insert(tempState, directions[i])
+                boardCopy = copy.deepcopy(self.board)
+                boardCopy.move_tiles(xdirs[i], ydirs[i])
+                self.insertTreeLevel(boardCopy, directions[i])
                 child = self.children[i]
                 value = min(value, child.ab_tree_search(depth - 1, alpha, beta, player * -1))
                 beta = min(beta, value)

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2048.iml" filepath="$PROJECT_DIR$/.idea/2048.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/AIE/APIScaffolding/.idea/APIScaffolding.iml" filepath="$USER_HOME$/Desktop/AIE/APIScaffolding/.idea/APIScaffolding.iml" />
     </modules>
   </component>
 </project>
